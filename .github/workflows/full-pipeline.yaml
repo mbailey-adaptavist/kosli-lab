@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: Clone down repository
         uses: actions/checkout@v6       
-        - name: Setup Kosli CLI
+      - name: Setup Kosli CLI
         uses: kosli-dev/setup-cli-action@v2
         with:
           version:
